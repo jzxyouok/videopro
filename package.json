@@ -1,0 +1,19 @@
+{
+  "name": "videopro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qujsh/videopro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qujsh/videopro/issues"
+  },
+  "homepage": "https://github.com/qujsh/videopro#readme"
+}
