@@ -41,7 +41,7 @@
                 video: {
                     v_id:0,
                     v_title:'',
-                    v_class:2
+                    v_class:''
                 }
             };
         },
