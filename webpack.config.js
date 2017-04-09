@@ -25,7 +25,7 @@ module.exports =
         loaders:[
             {test:/\.js$/,loader:"babel-loader",query:{compact:true},exclude: /node_modules/},
             {test:/\.vue$/,loader:"babel-loader!vue-loader", exclude: /node_modules/},
-            {test:/\.(eot|woff|woff2|svg|ttf)([\?]?.*)$/,loader:"file" },
+            {test:/\.(eot|woff|woff2|svg|ttf)([\?]?.*)$/,loader:"file-loader" },
             {
                 test: /\.css$/,
                 loader: 'style-loader!css-loader'
@@ -42,7 +42,7 @@ module.exports =
     plugins:[     
         new HtmlWebpackPlugin({
           //  filename: __dirname+'/src/webapp/member/index.html',//目标文件
-            filename:"/member/index.html",//用户后台首页
+            filename:"member/index.html",//用户后台首页
             template: __dirname+'/src/pages/member/index.html',//模板文件
             inject:'body',
             hash:true,
