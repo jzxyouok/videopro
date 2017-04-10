@@ -8,7 +8,7 @@
     "b": "webpack",
     "dev": "webpack-dev-server --inline --hot --content-base ./src/webapp"
   },
-  "repository": {   
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/qujsh/videopro.git"
   },
