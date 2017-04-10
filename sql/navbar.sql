@@ -23,7 +23,7 @@ CREATE TABLE `navbar` (
   `nav_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `nav_text` varchar(20) NOT NULL,
   `nav_url` varchar(50) NOT NULL,
-  `nav_order` int(11) DEFAULT NULL COMMENT 'Ë³Ðò,¶àÉÙ¼¶',
-  `nav_pid` int(11) DEFAULT '0' COMMENT '¸¸ID',
+  `nav_order` int(11) DEFAULT NULL COMMENT 'order',
+  `nav_pid` int(11) DEFAULT '0' COMMENT 'parent ID',
   PRIMARY KEY (`nav_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;

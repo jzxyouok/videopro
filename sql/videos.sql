@@ -28,6 +28,7 @@ CREATE TABLE `videos` (
   `v_addtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '入库时间',
   `v_lastmod` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '最后修改时间',
   `v_playlist` int(11) NOT NULL DEFAULT '0' COMMENT '所属播单',
+   `v_pic` varchar(50) NOT NULL,
   PRIMARY KEY (`v_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
