@@ -37,6 +37,10 @@
                         </el-upload>
                     </el-form-item>
 
+                    <el-form-item label="标签" prop="">
+                        <input-tag :on-change="callbackMethod" :tags="tagsArray" placeholder="请输入标签，按回车结束"></input-tag>
+                    </el-form-item>
+
                 </el-form>
 
             </el-col>
@@ -61,7 +65,10 @@
     li.el-upload-list__item.is-success{height: 25px;}
 </style>
 <script>
-    //这儿的css真心写不来啊，我个擦擦
+
+    import InputTag from 'vue-input-tag';
+
+    //这儿的css真心写不来啊，我个擦擦，直接 调整 node_modules中的样式内容吧
     export default
     {
         mounted()
